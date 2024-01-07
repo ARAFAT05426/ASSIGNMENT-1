@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 6rem;
+}
+
+/* header area */
+header{
+    width: 100%;
+    height: 850px;
+}
+
+.banner_area{
+    background-image: url(resources/BannerImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 85%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin: 70px auto;
+    border-radius: 15px;
+}
+.banner_area .banner_content{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner_area .banner_content h3{
+    margin-bottom: 10px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/* main area */
+#discount{
+    width: 650px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#discount .discount_items h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 90px;
+    font-style: italic;
+    font-weight: 700;
+    margin:30px 0;
+}
+
+#discount .discount_items h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 10px;
+}
+
+#discount .discount_items h2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 35px;
+}
+
+#discount .discount_items img{
+    width: 99%;
+}
+
+#welcome{
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    height: 550px;
+    background-position: center;
+    justify-content: space-around;
+    background: url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    align-items: center;
+}
+
+#welcome .welcome_text{
+    margin-left: -100px;
+}
+
+#welcome .welcome_text h1{
+    line-height: 6.5rem;
+}
+
+#welcome .welcome_text p{
+    color: #D4DCE4;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#welcome .welcome_text button{
+    margin-left: 20px;
+    padding: 15px 25px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+#address{
+    width: 85%;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #FFE8E8;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#address .address_content{
+    padding-top: 120px;;
+}
+
+#address .address_content h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+
+#address .address_content h3 span{
+    color: #F00;
+}
+
+#address .address_content button{
+    color: #FFF;
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 10px 25px;
+    background-color: #F00;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
