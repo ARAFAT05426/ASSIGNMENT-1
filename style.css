@@ -303,9 +303,104 @@ header{
     width: 350px;
     height: auto;
     position: absolute;
-    bottom: 229px;
+    bottom: 229zpx;
     right: 149px;
 }
+#portfolio_area{
+    width: 85%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+#portfolio_area .portfolio_heading{
+    margin-bottom: 60px;
+}
+
+#portfolio_area .portfolio_heading h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    margin: 20px;
+}
+
+#portfolio_area .portfolio_heading h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+#portfolio_area .portfolio_heading p{
+    color: #11121F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#portfolio_area .portfolio_imgs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#portfolio_area .portfolio_imgs img{
+    width: 520px;
+    transition: 1s all;
+}
+
+#portfolio_area .portfolio_imgs img:hover{
+    transform: scale(1.1);
+}
+
+#subscribe_area{
+    width: 85%;
+    margin: 70px auto;
+    background: #FFF2F2;
+    padding: 150px 0;
+}
+
+#subscribe_area .subscribe_heading{
+    text-align: center;
+}
+
+#subscribe_area .subscribe_heading img{
+    padding-bottom: 10px;
+}
+
+#subscribe_area .subscribe_heading h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#subscribe_area .subscribe_heading p{
+    color: #11121F;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+#subscribe_area .subscribe_heading form{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    text-align: left;
+}
+
+#subscribe_area .subscribe_heading form input{
+    padding: 15px 100px;
+    text-align: left;
+}
+
+
 
 
 
