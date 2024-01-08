@@ -17,14 +17,10 @@ h1{
 
 /* header area */
 header{
-    width: 100%;
-    height: 850px;
-}
-
-.banner_area{
     background-image: url(resources/BannerImage.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 85%;
     height: 800px;
     width: 85%;
     background-position: center;
@@ -32,6 +28,15 @@ header{
     align-items: center;
     margin: 70px auto;
     border-radius: 15px;
+}
+
+.banner_area{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 .banner_area .banner_content{
     text-align: center;
@@ -164,45 +169,131 @@ header{
     border-radius: 6px;
 }
 
+#new_offer{
+    width: 85%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#new_offer .new_left h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#new_offer .new_left h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+#new_offer .new_left p{
+    color: #11121F;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
 
 
+#new_offer> img{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background: none;
+    border: 20px solid #F00;
+    border-radius: 50%;
+    padding: 25px 25px;
+    width: 420px;
+    height: 420px;
+}
 
+#new_offer .new_end{
+    text-align: left;
+}
 
+#new_offer .new_end h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+}
 
+#new_offer .new_end p{
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
 
+#new_offer .new_end img{
+    margin-top: 40px;
+}
 
+#holiday_sale{
+    width: 85%;
+    margin: 40px auto;
+    height: 100vh;
+}
 
+#holiday_sale .holiday_heading{
+    text-align: center;
+    margin-top: 40px;
+}
 
+#holiday_sale .holiday_heading h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
 
+#holiday_sale .holiday_heading h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+}
 
+#holiday_sale .holiday_heading h1 span{
+    color: #F00;
+    margin-bottom: 40px;
+}
 
+#holiday_sale .holiday_heading p{
+    color: #11121F;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
 
+#holiday_sale .holiday_img{
+    display: flex;
+    justify-content: space-around;
+    background: url(resources/Group\ 75.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    height: 600px;
+    align-items: end;
+    z-index: 1;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#holiday_sale .holiday_img img{
+    width: 100%;
+    height: 220px;
+}
 
 
 
