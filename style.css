@@ -353,7 +353,7 @@ header{
 }
 
 #portfolio_area .portfolio_imgs img{
-    width: 520px;
+    max-width: ;width: 520px;
     transition: 1s all;
 }
 
