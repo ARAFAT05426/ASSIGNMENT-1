@@ -7,6 +7,10 @@
     outline: none;
 }
 
+body{
+    scroll-behavior: smooth;
+}
+
 h1{
     color: #FFF;
     font-family: Merriweather;
@@ -135,7 +139,7 @@ header{
     width: 85%;
     height: 500px;
     margin: 50px auto;
-    background-color: #FFE8E8;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
     text-align: center;
     border-radius: 10px;
 }
@@ -169,7 +173,7 @@ header{
     border-radius: 6px;
 }
 
-#new_offer{
+#new_offer_area{
     width: 85%;
     margin: 100px auto;
     display: flex;
@@ -177,7 +181,7 @@ header{
     align-items: center;
 }
 
-#new_offer .new_left h3{
+#new_offer_area .new_left h3{
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -185,7 +189,7 @@ header{
     font-weight: 500;
 }
 
-#new_offer .new_left h1{
+#new_offer_area .new_left h1{
     color: #070211;
     font-family: Merriweather;
     font-size: 50px;
@@ -193,7 +197,7 @@ header{
     font-weight: 900;
 }
 
-#new_offer .new_left p{
+#new_offer_area .new_left p{
     color: #11121F;
     font-family: Inter;
     font-size: 20px;
@@ -202,7 +206,7 @@ header{
 }
 
 
-#new_offer> img{
+#new_offer_area> img{
     width: 400px;
     height: 400px;
     margin: auto;
@@ -214,11 +218,11 @@ header{
     height: 420px;
 }
 
-#new_offer .new_end{
+#new_offer_area .new_end{
     text-align: left;
 }
 
-#new_offer .new_end h1{
+#new_offer_area .new_end h1{
     color: #F00;
     font-family: Inter;
     font-size: 48px;
@@ -226,7 +230,7 @@ header{
     font-weight: 700;
 }
 
-#new_offer .new_end p{
+#new_offer_area .new_end p{
     color: #070211;
     font-family: Inter;
     font-size: 20px;
@@ -234,11 +238,11 @@ header{
     font-weight: 400;
 }
 
-#new_offer .new_end img{
+#new_offer_area .new_end img{
     margin-top: 40px;
 }
 
-#holiday_sale{
+#holiday_area{
     width: 85%;
     height: 900px;
     margin: 50px auto;
@@ -248,12 +252,12 @@ header{
     position: relative;
 }
 
-#holiday_sale .holiday_heading{
+#holiday_area .holiday_heading{
     text-align: center;
     margin-top: 40px;
 }
 
-#holiday_sale .holiday_heading h3{
+#holiday_area .holiday_heading h3{
     color: #070211;
     font-family: Inter;
     font-size: 24px;
@@ -261,7 +265,7 @@ header{
     margin-bottom: 20px;
 }
 
-#holiday_sale .holiday_heading h1{
+#holiday_area .holiday_heading h1{
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
@@ -269,12 +273,12 @@ header{
     font-weight: 900;
 }
 
-#holiday_sale .holiday_heading h1 span{
+#holiday_area .holiday_heading h1 span{
     color: #F00;
     margin-bottom: 40px;
 }
 
-#holiday_sale .holiday_heading p{
+#holiday_area .holiday_heading p{
     color: #11121F;
     font-family: Inter;
     font-size: 20px;
@@ -283,7 +287,7 @@ header{
     margin-bottom: 50px;
 }
 
-#holiday_sale .img_1{
+#holiday_area .img_1{
     width: 600px;
     height: auto;
     position: absolute;
@@ -291,7 +295,7 @@ header{
     left: 160px;
 }
 
-#holiday_sale .img_2{
+#holiday_area .img_2{
     position: absolute;
     bottom: 210px;
     right: 400px;
@@ -299,7 +303,7 @@ header{
 }
 
 
-#holiday_sale .img_3{
+#holiday_area .img_3{
     width: 350px;
     height: auto;
     position: absolute;
